@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Tugas Membuat Web</title>
+
+	<style type="text/css">
+		body {
+			background-color: white;
+		}
+
+		.pembungkus{
+			height: 1950px;
+			margin: auto;
+			width: auto
+		}
+
+		.kotak1{
+			background-color: white;
+			height: 1950px;
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 30px;
+		}
+
+		.kotakMenu {
+			background-color: ;
+			height: 70px;
+		}
+
+		.kotakMenu2 img {
+			height: 50px;
+			width: 90px;
+			float: left;
+		}
+
+		.kotakMenu3 {
+			height: 50px;
+			width: 518px;
+			float: left;
+			background-color:  ;
+			margin-left: 620px;
+			font-weight: bold;
+
+		}
+
+		.kotakMenu3 nav ul li { 
+			float: left; 
+			list-style: none; 
+			background: white;
+		}
+		.kotakMenu3 nav ul li a{ 
+			margin-right: 15px; 
+			text-decoration: none;
+			padding: 3px 15px;
+			color: black;
+		}
+
+		.kotakMenu3 nav ul li ul {
+			display: none; 
+			position: absolute;
+		}
+		.kotakMenu3 nav ul li ul li {
+			float: none;
+			position: relative;
+		}
+
+		.kotakMenu3 nav ul li:hover{
+			background: lightblue;
+		}
+		.kotakMenu3 nav ul li a:hover {
+			color: white;
+		}
+
+		.kotakMenu3 nav ul li:hover > ul {display: block;}
+		
+		.kotakMenu3 nav {
+			position: relative;
+			background: #ffffff;
+			height: 30px;
+			line-height: 30px;
+		}
+	
+	
+		.kotak3 img {
+			height: 500px;
+			width: 1228px;
+			
+		
+		}
+
+
+		.kotak3 p b{
+			position: absolute;
+			top: 70px;
+			z-index: 2;
+			color: #fff;
+			padding-top: 250px;
+			padding-left: 300px;
+			font-size: 50px;
+		}
+
+
+		.kotak3 p c{
+		position: absolute;
+		top: 70px;
+		z-index: 2;
+		color: #fff;
+		padding-top: 330px;
+		padding-left: 500px;
+		font-size: 25px;
+		font-weight: bold;
+		}
+
+		.kotak2 p c{
+		position: absolute;
+		top: 70px;
+		z-index: 2;
+		color: #fff;
+		padding-top: 330px;
+		padding-left: 500px;
+		font-size: 25px;
+		font-weight: bold;
+		}
+
+		.shopnow{
+		height: 30px;
+		width:200px;
+		background-color:#1C1C1C;
+		position: absolute;
+		top: 70px;
+		z-index: 2;
+		margin-top: 400px;
+		margin-left: 500px;
+	
+	}
+
+	.shopnow p d {
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		padding-left:40px;
+
+	}
+
+
+	.shopnow input[type=submit] {
+		position: absolute;
+		  width: 100%;
+		  background-color: #1C1C1C;
+		  padding: 14px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  font-family: Inter,Lato,helvetica,arial,sans-serif;
+		  font-size: 16px;
+		  z-index: 2;
+		  color: white;
+		}
+	
+
+	
+
+	.kotak4 {
+			height: 300px;
+			width: 1228px;
+			margin-top: 25px;
+			background-color: white;
+		}
+
+
+	.kotak5 img {
+			height: 300px;
+			width: 392px;
+			float: left;
+			
+		}
+
+	.kotak6 {
+			height: 300px;
+			width: 26px;
+			background-color: white;
+			float: left;
+			
+		}
+
+
+	.kotak7 img {
+			height: 300px;
+			width: 392px;
+			float: left;
+		
+		}
+
+		.kotak8 img {
+			height: 300px;
+			width: 392px;
+			
+		}
+
+		.kotakProduct1 {
+			height: 40px;
+			width: 1228px;
+			background-color: white;
+			margin-top: 80px;
+
+
+		}
+
+
+		.kotakProduct2 {
+			background-color: white;
+			height: 37px;
+			width: 240px;
+			float: left;	
+			padding-top: 3px;
+		}
+
+		.kotakProduct2 b {
+			font-size: 30px;
+		}
+
+		.kotakProduct3 {
+			background-color: black;
+			height: 40px;
+			width: 165px;
+			margin-left: 1065px;
+		}
+
+		.kotakProduct3 h3{
+			color: white;
+			padding-top: 10px;
+			padding-left: 10px; 
+
+
+		}
+
+		.kProduct1 {
+			height: 360px;
+			width: 1228px;
+			background-color: ;
+			margin-top: 20px;
+		}
+
+		.kProduct2 img {
+			height: 350px;
+			width: 392px;
+			float: left;
+		}
+
+		.kProduct3{
+			height: 300px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		}
+
+		.kProduct4 img {
+			height: 350px;
+			width: 392px;
+			float: left;
+		}
+
+		.kProduct5 img{
+			height: 350px;
+			width: 392px;
+
+		}
+
+		.kProduct11 {
+			height: 360px;
+			width: 1228px;
+			background-color: ;
+			margin-top: 20px;
+		}
+
+		.kProduct22 img {
+			height: 350px;
+			width: 392px;
+			float: left;
+		}
+
+		.kProduct33{
+			height: 360px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		}
+
+		.kProduct44 img {
+			height: 350px;
+			width: 392px;
+			float: left;
+		}
+
+		.kProduct55 img{
+			height: 350px;
+			width: 392px;
+
+		}
+
+		.kHarga1{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+			margin-top: 10px;
+		}
+
+
+		.kHarga1 b {
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+			font-size: 18px;
+
+		}
+
+		.kHarga2{
+			height: 21px;
+			width: 392px;
+			background-color:;
+			float: left;
+		padding-top: 3px;
+			
+		}
+
+		.kHarga2.kHarga4.kHarga5 b{
+			font-size: 20px;
+
+		}
+			
+
+		 .kHarga3{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .kHarga4{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+		 }
+
+		 .kHarga5{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			margin-left: 836px;
+			padding-top: 3px;
+		 }
+
+
+		.kHarga11{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+			margin-top: 10px;
+		}
+
+
+		.kHarga11 b {
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+			font-size: 18px;
+
+		}
+
+		.kHarga22{
+			height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+			
+		}
+
+		.kHarga22.kHarga44.kHarga55 b{
+			font-size: 20px;
+
+		}
+			
+
+		 .kHarga33{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .kHarga44{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+		 }
+
+		 .kHarga55{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			margin-left: 836px;
+			padding-top: 3px;
+		 }
+
+
+
+		 .bintang1{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+		}
+
+		.bintang2 {
+			height: 25px;
+			width: 392px;
+			background-color: ;
+			float: left;
+	
+			
+		}
+			
+		 .bintang3{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .bintang4{
+		 	height: 25px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			
+		 }
+
+		 .bintang5{
+		 	height: 24px;
+			width: 392px;
+			background-color:;
+			margin-left: 836px;
+			
+		 }
+
+		  .bintang11{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+		}
+
+		.bintang22 {
+			height: 25px;
+			width: 392px;
+			background-color: ;
+			float: left;
+	
+			
+		}
+			
+		 .bintang33{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .bintang44{
+		 	height: 25px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			
+		 }
+
+		 .bintang55{
+		 	height: 24px;
+			width: 392px;
+			background-color: ;
+			margin-left: 836px;
+			
+		 }
+
+
+		.bintang2 .Stars45 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+		.bintang4 .Stars50 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+
+		.bintang5 .Stars50 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+
+		.bintang22 .Stars45 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+		.bintang44 .Stars50 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+
+		.bintang55 .Stars50 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+
+		.harga1{
+			height: 24px;
+			width: 1228px;
+			background-color:;
+			margin-top: 1px;
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+		}
+
+		.harga1 del {
+			color: gray;
+		}
+
+		.harga2{
+			height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+			
+		}
+
+		 .harga3{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .harga4{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+		 }
+
+		 .harga5{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			margin-left: 836px;
+			padding-top: 3px;
+		 }
+
+		 .harga11{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+			margin-top: 1px;
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+		}
+
+		.harga22{
+			height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+			
+		}
+
+		 .harga33{
+		 	height: 21px;
+			width: 26px;
+			background-color: white;
+			float: left;
+		 }
+
+		 .harga44{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+			padding-top: 3px;
+		 }
+
+		 .harga55{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			margin-left: 836px;
+			padding-top: 3px;
+		 }
+		
+		.logo1{
+			height: 300px;
+			width: 2000px;
+			background-color: #E0F8E6;
+			margin-top: 30px;
+		}
+
+		.logo2  {
+			height: 150px;
+			width: 392px;
+			margin-left: 200px;
+			float: left;
+		}
+		.logo1 .lingkaran{
+			width: 60px;
+			height: 62px;
+			background: white;
+			border-radius: 100%;
+			border: 3px solid black;
+			margin-top: 70px;
+			margin-left: 160px;
+		}
+		.logo1 img{
+			height: 50px;
+			width: 50px;
+			margin-left: 6px;
+			margin-top: 6px;
+		}
+
+		.logo3{
+			height: 150px;
+			width: 26px;
+			background-color: ;
+			float: left;
+		}
+
+		.logo4 {
+			background-color: ;
+			height: 150px;
+			width: 392px;
+			float: left;
+		}
+
+		.logo5 {
+			background-color: ;
+			height: 150px;
+			width: 392px;
+			float: left; 
+		}	
+
+		.logo11{
+			height: 40px;
+			width: 1228px;
+			background-color: ;
+			margin-left: 200px;
+		}
+
+
+		.logo1 b  {
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+			font-size: 20px;
+			text-align: center;
+			padding-left: 110px;
+
+		}
+
+		.logo22{
+			height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		
+			
+		}
+
+		 .logo33{
+		 	height: 21px;
+			width: 26px;
+			background-color: ;
+			float: left;
+		 }
+
+		 .logo44{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		
+		 }
+
+		 .logo55{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		 }
+
+
+
+		.logo111{
+			height: 24px;
+			width: 1228px;
+			background-color: ;
+			margin-left: 200px;
+		}
+
+
+		.logo1 a  {
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+			font-size: 17px;
+			text-align: center;
+			padding-left: 69px;
+
+		}
+
+		.logo222{
+			height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		
+			
+		}
+
+		 .logo333{
+		 	height: 21px;
+			width: 26px;
+			background-color: ;
+			float: left;
+		 }
+
+		 .logo444{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		
+		 }
+
+		 .logo555{
+		 	height: 21px;
+			width: 392px;
+			background-color: ;
+			float: left;
+		 }	
+
+		
+		.our1{
+			height: 580px;
+			width: 2000px;
+			background-color: white;
+			margin-top: 70px;
+		}
+
+		
+
+		.our2{
+			height: 400px;
+			width: 600px;
+			background-color: white;
+			float: left;
+			margin-left: 200px;
+			padding-top: 100px;
+
+		}
+
+
+		.our3{
+			height: 500px;
+			width: 26px;
+			float: left;
+
+		}
+
+
+		.our4{
+			height: 500px;
+			width: 600px;
+			background-color: purple;
+			float: left;
+		}
+
+		.our4 img {
+			height:  500px;
+			width: 600px;
+		}
+		
+
+		.our1 a {
+	    		font-family: Inter,Lato,helvetica,arial,sans-serif;
+				font-size: 18px;	
+				padding-top: 5px;
+			
+			}	
+
+   		.our1 p {
+   				font-family: "Inter", Sans-serif;
+   				font-size: 22px;
+   				font-weight: 700;
+
+
+			}
+
+		.our1 c {
+				font-size: 18px;
+			    font font-family: inter, sans-serif;
+
+		   }	
+
+
+		
+	     .our2b{
+		   	height: 25px;
+		   	width: 100px;
+		   	background-color: black;
+		   	color: white;
+		   	text-align: center;
+		   	padding-top: 5px;
+		   	margin-top: 20px;
+		   }
+
+		.customer1{
+			height: 400px;
+			width: 2000px;
+			background-color: #E0F8E6;
+			padding-top: 70px;
+
+		}
+
+
+		.customer3{
+			height: 22px;
+			width: 20px;
+			float: left;
+		}
+
+	
+		.customer6{
+			height: 120px;
+			width: 340px;
+			background-color: white;
+			margin-left: 280px;
+			float: left;
+			margin-top: 3px;
+			color: #626a70;
+			padding-left: 35px;
+			}
+
+		.customer7{
+			height: 120px;
+			width: 345px;
+			background-color: black;
+			float: left;
+			margin-top: 3px;
+			color: white;
+			padding-left: 30px;
+			}
+
+
+		.customer8{
+			height: 120px;
+			width: 345px;
+			background-color: white;
+			float: left;
+			margin-top: 3px;
+			color: #626a70;
+			padding-left: 30px;
+			}
+
+		.user1{
+			height: 90px;
+			width: 375px;
+			background-color: brown;
+			margin-left: 280px;
+			float: left;
+
+		}	
+
+		.user2{
+
+			height: 90px;
+			width: 375px;
+			background-color: pink;
+			float: left;
+			
+		}
+
+		.user3{
+
+			height: 90px;
+			width: 375px;
+			background-color: purple;
+			float: left;
+		}
+
+		.customer1 .Stars50 {
+		  --star-size: 25px;
+		  --star-color: #fff;
+		  --star-background: #fc0;
+
+
+		
+		  --percent: calc(var(--rating) / 5 * 100%);
+		  display: inline-block;
+		  font-size: var(--star-size);
+
+		  
+		  &::before {
+		    content: '★★★★★';
+		    letter-spacing: 0.5px;
+		    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		   
+		  }
+		}
+
+		.customer1 a{
+		    font-family: "Inter", Sans-serif;
+			font-size: 16px;
+			line-height: 25px;
+		}
+
+		.customer1 z{
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+			font-size: 16px;
+			padding-left: 800px
+		}
+
+		.customer1 h1{
+		    padding-left: 700px;
+		}
+
+
+		.user1a{
+			height: 90px;
+		    width: 75px;
+    		background-color: white;
+    		float: left;
+    		padding-left: 25px;
+
+		}
+
+		.customer1 img {
+			height: 65px;
+			width: 65px;
+			border-radius: 70%;
+		}
+
+		.user1b{
+			height: 72px;
+		    width: 295px;
+    		background-color: white;
+    		margin-left: 80px;
+    		padding-top: 18px;	
+    	
+    	}
+
+    	.customer1 b {
+    		font-family: "Poppins", Sans-serif;
+    		font-size: 22px;
+
+    	}
+
+    	.customer1 d {
+    		font-family: "Montserrat", Sans-serif;
+    		color: #626a70;
+    		font-size: 18px;
+
+    	}
+
+
+
+		.user2a{
+			height: 90px;
+		    width: 75px;
+    		background-color: black;
+    		float: left;
+    		padding-left: 25px;
+		}
+
+		.user2b{
+			height: 72px;
+		    width: 295px;
+    		background-color: black;
+    		margin-left: 80px;
+    		padding-top: 18px;	
+    		color: white;
+    	}
+
+
+		.user3a{
+			height: 90px;
+		    width: 75px;
+    		background-color: white;
+    		float: left;
+    		padding-left: 25px;
+		}
+
+		.user3b{
+			height: 72px;
+		    width: 295px;
+    		background-color: white;
+    		margin-left: 80px;
+    		padding-top: 18px;	
+    	}
+
+    	
+    	.kontak1{
+    		height: 330px;
+			width: 2000px;
+			background-color: black;
+			color: white;
+			}
+
+		.kontak1 z{
+    		font-size: 20px;
+    		font-weight: bold;
+    		font-family: Inter,Lato,helvetica,arial,sans-serif;
+			}
+
+		.kontak1 x{
+			padding-top: 10px;
+    		font-size: 20px;
+    		font-weight: bold;
+    		color: gray;
+			}
+
+		.kontak5 a{
+    		font-size: 14px;
+    		font-family: Inter,Lato,helvetica,arial,sans-serif;
+			}
+		.kontak7 a{
+    		font-size: 16px;
+    		font-family: Inter,Lato,helvetica,arial,sans-serif;
+    		margin-top: 500px;
+
+			}
+
+
+		.kontak2{
+			height: 50px;
+			width: 375px;
+			margin-left: 280px;
+			float: left;
+			margin-top: 50px;
+					
+		}	
+
+		.kontak3{
+			height: 50px;
+			width: 375px;
+			float: left;
+			margin-top: 50px;
+			
+		}
+
+		.kontak4{
+			height: 50px;
+			width: 375px;
+			float: left;
+			margin-top: 50px;
+		}
+
+		.kontak5{
+			height: 200px;
+			width: 375px;
+			margin-left: 280px;
+			float: left;
+			margin-top: 50px;
+					
+		}	
+
+		.kontak6{
+			height: 200px;
+			width: 375px;
+			float: left;
+			font-family: Inter,Lato,helvetica,arial,sans-serif;
+
+		
+		}
+		.kontak6 b{
+			font-size: 13px;	
+		}
+		.kontak6 c{
+			padding-top: 3px;
+			font-size: 11px;	
+		}
+		.kontak6a{
+			height: 60px;
+			width: 80px;
+			float: left;
+		}
+		.kontak6 img{
+			height: 50px;
+			width: 70px;
+			float: left;
+
+		}
+		.kontak6b{
+			height: 60px;
+			width: 375px;
+			padding-top: 7px;
+		}
+
+
+		.kontak7{
+			height: 200px;
+			width: 375px;
+			float: left;
+
+		}
+
+		.kontak7a{
+			height: 60px;
+			width: 235px;
+			float: left;
+			padding-bottom: 10px;
+
+		}
+		.kontak7a form{
+			height: 60px;
+			width: 225px;
+			font-family: inherit;
+
+		}
+		.kontak7b{
+			height: 60px;
+			width: 140px;	
+			float: left;
+			padding-bottom: 10px;
+		}
+
+
+
+		.kontak5 img{
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;		
+			padding-top: 10px;
+		}	
+
+
+		input[type=text], select {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		.kontak7b input[type=submit] {
+		  width: 100%;
+		  background-color: white;
+		  color: black;
+		  padding: 14px 20px;
+		  margin: 4px 0;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  font-family: Inter,Lato,helvetica,arial,sans-serif;
+		  font-size: 16px;
+		}
+
+
+
+		.footer{
+    		height: 70px;
+			width: 2000px;
+			background-color: #2E2E2E;
+			color: white;
+			
+		}
+
+		.footer b{
+			padding-left: 150px;
+		}
+
+		.footer a{
+			padding-left: 600px;
+		}
+
+
+
+
+
+
+
+
+
+
+						
+
+	</style>
+
+
+</head>
+<body>
+	<div class="pembungkus">
+		
+
+	<div class="kotak1">
+
+		<div class="kotakMenu">
+			<div class="kotakMenu2">
+				<img src="nike.jpg">
+			</div>
+			
+			<div class="kotakMenu3">
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Shop</a>
+						  		<ul>
+									<li><a href="#">My Account</a></li>
+									<li><a href="#">Cart</a></li>
+									<li><a href="#">Cheakout</a></li>
+								</ul>
+							</li>	
+					
+							<li><a href="#">Blog</a>
+								<ul>
+									<li><a href="#">Layout 1</a></li>
+									<li><a href="#">Layout 2</a></li>	
+								</ul>	
+							</li>
+
+							<li><a href="#">Our Team</a>
+								<ul>
+									<li><a href="#">About Us</a></li>
+								</ul>
+							</li>
+
+							<li><a href="#">Contac Ust</a></li>
+							
+						</ul>	
+					</nav>
+			</div>
+
+
+		</div>	
+
+
+		<div class="kotak3">
+			<img src="gambar1.jpg">
+			<p><b>Let’s Bring Beauty to Your Self</b></p>
+			<p><c>Fast Delivery & Fair Prices</c></p>
+
+			<div class="shopnow">
+					<input type="submit" value="Shop Now">
+			</div>
+		</div>
+
+	
+		<div class="kotak4">
+
+			<div class="kotak5">
+				<img src="gambar2.png">
+			</div>
+
+			<div class="kotak6">
+			</div>
+
+			<div class="kotak7">
+				<img src="gambar3.png">
+			</div>
+
+			<div class="kotak6"></div>
+
+			<div class="kotak8">
+				<img src="gambar4.png">
+			</div>
+
+		</div>
+
+		<div class="kotakProduct1">
+			<div class="kotakProduct2">
+				<b>Popular Products</b>
+			</div>
+
+		
+			<div class="kotakProduct3">
+				<h3>View All Products</h3>
+			</div>
+		</div>
+
+		<div class="kProduct1">
+			<div class="kProduct2">
+				<img src="gambar5.png">
+
+
+			</div>
+
+			<div class="kProduct3">
+			</div>
+
+			<div class="kProduct4">
+				<img src="gambar6.png">
+			</div>
+
+			<div class="kProduct3">
+			</div>
+
+			<div class="kProduct5">
+				<img src="gambar7.png">
+			</div>		
+
+		</div>
+
+			<div class="kHarga1"> 
+				<div class="kHarga2">
+					<b>Nike Structure 25</b>
+				</div>	
+
+				<div class="kHarga3">	
+				</div>
+
+				<div class="kHarga4">
+					<b>Nike Structure 2</b>
+				</div>	
+
+				<div class="kHarga3">
+				</div>
+
+				<div class="kHarga5">
+					<b>Nike Invincible 3 SE</b>
+				</div>
+				
+
+			</div>
+
+			<div class="bintang1"> 
+				<div class="bintang2">
+					<div class="Stars45" style="--rating: 4.5;">
+ 					</div>
+				</div>	
+
+				<div class="bintang3">
+				</div>
+
+				<div class="bintang4">
+					<div class="Stars50" style="--rating: 5.0;">
+ 					</div>
+				</div>	
+
+				<div class="bintang3">
+				</div>
+
+				<div class="bintang5">
+					<div class="Stars50" style="--rating: 4.5;">
+ 					</div>
+					
+				</div>
+
+			</div>
+
+			<div class="harga1"> 
+				<div class="harga2">
+				<a>$49.00</a>
+				</div>	
+
+				<div class="harga3">
+				</div>
+
+				<div class="harga4">
+				<del>$129.00</del> <b>$79.00</b>
+				</div>	
+
+				<div class="harga3">
+				</div>
+
+				<div class="harga5">
+				<del>$249.00</del> <b>$229.00</b>				
+					
+				</div>
+			</div>
+
+				<div class="kProduct11">
+					<div class="kProduct22">
+						<img src="gambar8.png">
+					</div>
+
+					<div class="kProduct33">
+					</div>
+
+					<div class="kProduct44">
+						<img src="gambar9.png">
+					</div>
+
+					<div class="kProduct33">
+					</div>
+
+					<div class="kProduct55">
+						<img src="gambar10.png">
+					</div>	
+				</div>	
+
+				<div class="kHarga11"> 
+					<div class="kHarga22">
+						<b>Nike Renew Run 4</b>
+					</div>	
+
+					<div class="kHarga33">	
+					</div>
+
+					<div class="kHarga44">
+						<b>Nike InfinityRN 4</b>
+					</div>	
+
+					<div class="kHarga33">
+					</div>
+
+					<div class="kHarga55">
+						<b>Nike Revolution 6 SE</b>
+					</div>
+				</div>	
+					
+				<div class="bintang11"> 
+						<div class="bintang22">
+							<div class="Stars45" style="--rating: 4.0;">
+ 							</div>
+						</div>	
+
+						<div class="bintang33">
+						</div>
+
+						<div class="bintang44">
+							<div class="Stars50" style="--rating: 4.0;">
+ 							</div>
+						</div>	
+
+						<div class="bintang33">
+						</div>
+
+						<div class="bintang55">
+							<div class="Stars50" style="--rating: 4.5;">
+ 							</div>
+					
+						</div>
+					</div>
+
+
+					<div class="harga11"> 
+						<div class="harga22">
+						<a>$39.00</a>
+						</div>	
+
+						<div class="harga33">
+						</div>
+
+						<div class="harga44">
+						<a>$199.00</a>
+						</div>	
+
+						<div class="harga33">
+						</div>
+
+					<div class="harga55">
+						<a>$19.00</a>				
+						
+					</div>
+				</div>
+		 </div>
+
+			<div class="logo1">
+					<div class="logo2">
+						<div class="lingkaran">
+							<img src="logo1.png">
+						</div>
+					</div>
+
+					<div class="logo3">
+					</div>	
+
+					<div class="logo4">
+						<div class="lingkaran">
+							<img src="logo2.png">
+						</div>
+					</div>
+
+					<div class="logo3">
+					</div>	
+
+					<div class="logo5">
+						<div class="lingkaran">
+							<img src="logo3.png">
+						</div>	
+					</div>
+				
+					<div class="logo11"> 
+						<div class="logo22">
+					    	<b>Secure Payment</b>
+						</div>	
+
+						<div class="logo33">
+						</div>
+
+						<div class="logo44">
+							<b>Express Shipping</b>
+						</div>	
+
+						<div class="logo33">
+						</div>
+
+						<div class="logo55">
+					    	 <b>Customer Support</b>				
+						</div>
+					</div>
+
+					<div class="logo111"> 
+						<div class="logo222">
+					    	<a>Lorem ipsum dolor sit amet simet el.</a>
+						</div>	
+
+						<div class="logo333">
+						</div>
+
+						<div class="logo444">
+							<a>Lorem ipsum dolor sit amet simet el.</a>
+						</div>	
+
+						<div class="logo333">
+						</div>
+
+						<div class="logo555">
+					    	 <a>Lorem ipsum dolor sit amet simet el.</a>				
+						</div>
+					</div>
+			
+			</div>
+
+			<div class="our1">
+				<div class="our2">		
+					<a>825220158</a>
+				
+					<p>Daniel Apriadi Butarbutar</p> 
+				
+					<c>Daniel Apriadi Butarbutar Mahasiswa Universitas Tarumanagara .</c>
+
+					<div class="our2b">
+						<b>	Read More</b>
+					</div>
+				</div>
+
+				<div class="our3">
+				</div>
+
+				<div class="our4">
+					<img src="fotodani.jpg">
+				</div>
+
+			</div>
+
+
+			<div class="customer1">
+				<z>Testimonials</z>
+				<h1>What Our Customers Say</h1>
+							
+
+					<div class="customer6">
+						<div class="Stars50" style="--rating: 5.0;">
+		 				</div>
+		 				<br>
+						<a>Lorem ipsum dolor sit amet, consectetur <br>	
+						   adipiscing elit. Ut elit tellus, luctus nec <br>	
+						   ullamcorper mattis, pulvinar dapibus leo. <br>
+						</a>
+					</div>
+
+					<div class="customer3">
+					</div>
+
+					<div class="customer7">
+						<div class="Stars50" style="--rating: 5.0;">
+		 				</div>
+		 				<br>
+						<a>Lorem ipsum dolor sit amet, consectetur <br>	
+						   adipiscing elit. Ut elit tellus, luctus nec <br>	
+						   ullamcorper mattis, pulvinar dapibus leo. <br>
+						</a>
+					</div>
+
+					<div class="customer3">	
+					</div>
+
+					<div class="customer8">
+						<div class="Stars50" style="--rating: 5.0;">
+		 				</div>
+		 				<br>
+						<a>Lorem ipsum dolor sit amet, consectetur <br>	
+						   adipiscing elit. Ut elit tellus, luctus nec <br>	
+						   ullamcorper mattis, pulvinar dapibus leo. <br>
+						</a>
+					</div>
+
+			
+						<div class="user1">
+							<div class="user1a">
+								<img src="orang1.png">
+							</div>
+							<div class="user1b">
+								<b>Peter</b> <br>	
+								<d>Smith</d>
+							</div>
+						</div>
+
+						<div class="customer3">	
+						</div>
+
+						<div class="user2">
+							<div class="user2a">
+								<img src="orang1.png">
+							</div>
+							<div class="user2b">
+								<b>Oliver</b> <br>	
+								<d>Peterson</d>
+							</div>
+						</div>
+
+						<div class="customer3">	
+						</div>		
+
+						<div class="user3">
+							<div class="user3a">
+								<img src="orang1.png">
+							</div>
+							<div class="user3b">
+								<b>	Jane</b> <br>	
+								<d>Doe</d>
+							</div>
+						</div>
+
+
+			</div>
+		
+			<div class="kontak1">
+						<div class="kontak2">
+							<z>About Us</z>
+							<br>
+							<x>_______</x>
+						</div>
+
+						<div class="customer3">
+						</div>
+
+						<div class="kontak3">
+							<z>Latest News</z>	
+							<br>
+							<x>_______</x>
+						</div>
+
+						<div class="customer3">
+						</div>
+
+						<div class="kontak4">
+							<z>Join Our Newsletter</z>
+							<br>
+							<x>_______</x>
+
+						</div>
+
+						<div class="kontak5">
+							<a>Inventore veritatis et quasi architecto beatae dicta sed ut<br>
+							perspiciatis unde omnis iste natus laudantium.<br><br>
+
+							Sed ut perspiciatis unde omnis iste natus<br>
+							voluptatem fringilla tempor dignissim at, pretium et arcu.</a>
+
+							<img src="fb.png">
+							<img src="og.png">
+							<img src="tw.png">
+							<img src="yt.png">
+						</div>
+
+						<div class="customer3">
+						</div>
+
+						<div class="kontak6">
+							<div class="kontak6a">
+								<img src="l1.png">
+							</div>
+							<div class="kontak6b">
+								<b>How I Started My eCommerce Shop</b>
+								<br>
+								<c>July 4, 2022</c>
+							</div>
+							<div class="kontak6a">
+								<img src="l2.png">
+							</div>
+							<div class="kontak6b">
+								<b>Quitting My Corporate Job for My Startup</b>
+								<br>
+								<c>July 4, 2022</c>
+							</div>
+							<div class="kontak6a">
+								<img src="l3.png">
+							</div>
+							<div class="kontak6b">
+								<b>The Most Important Skills In Life</b>
+								<br>
+								<c>July 4, 2022</c>
+							</div>
+							
+						</div>
+
+						<div class="customer3">
+						</div>
+
+						<div class="kontak7">
+							<div class="kontak7a">
+								<form>	
+	   								<input type="text" id="fname" name="firstname" placeholder="E.g. daniel@apriadi.com">
+								</form>
+							</div>
+							<div class="kontak7b">
+									<input type="submit" value="Subscribe">
+							</div>
+
+							<br><a>We only send newsletters out a few times a year, we <br> won't ever spam you.</a>
+						</div>
+
+			</div>
+
+			<div class="footer">
+				 <b>_______________________________________________________________________________________________________________________________________________________________</b><br>
+				 <a> ©2023 Superb eCommerce | 8255220158 by Daniel Apriadi Butarbutars</a>
+			</div>
+
+</div>
+</body>
+</html>
